@@ -1,58 +1,16 @@
 <html>
-
-
-<body>
-<table border="1" width="100%" height="350px">
-    <tr>
-      <td colspan="2" height="40px" align="center">Nội dung</td>
-
-    </tr>
-  <tr>
-    <td width="30%" bgcolor="orange">
-      <ul>
-         <li>Bài tập</li>
-      </ul>
-      <ol>
-        <li>
-          <a href="Contents/giới thiệu bản thân.html" target="noidung">giới thiệu</a>
-        </li>
-        <li>
-          <a href='Contents/tkb.html'
-            target="noidung">thời khoá biểu</a>
-        </li>
-        <li>
-          <a
-        href="Contents/khmt.html"
-             target="noidung">Hướng nghiệp
-           </a>
-         </li>
-      </ol>
-    <ul>
-      <li> tài liệu tham khảo</li>
-    </ul>
-      <ol>
-        <li>
-        <a 
-    href=
-"https://www.w3schools.com/html/html_colors.asp?authuser=0" 
-          
-        target="noidung">w3schools.com</a>
-        </li>
-      </ol>
-    </td>
-    <td> 
-    <iframe name="noidung" src="contents/gioithieu.html" frameborder="8" width="100%"height="100%">
-      </iframe>
-      </td>
-     </tr>
-  <tr>
-    <td colspan="2" height="25px" bgcolor="lightgray"> 
-      </td>
-  </tr>
-
-  
-  
-</table>
-</body>
-</html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <tittle> BÀI TẬP TIN HỌC 12</tittle>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"> </script>
+     </head>
+  <body>
+    <form>
+      <label> Tên đăng nhập:</label> <input type="text" id="us" name="us"> <br>
+      <label> Mật khẩu:</label><input type="password" id="pw" name="pw"> <br>
+      <button type="submit" id="ok" name="ok" onclick=login()> ĐĂNG NHẬP </button>
+    </form>
+  </body>
 
