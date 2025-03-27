@@ -15,12 +15,12 @@ html {
 }
 .trinhdon {
   display: flex;
-  background-color: baby blue; 
+  background-color: yellow; 
   padding: 20px; 
  
 }
 .hello { 
-  color:white;
+  color:red;
   font-size: 30px;
   text-decoration: none;
   padding: 5px 10px; 
