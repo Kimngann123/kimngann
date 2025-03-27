@@ -1,37 +1,13 @@
-html {
-  height: 100%;
-  width: 100%;
+.header
+{
+  background-color: gray;
+  color: red;
+  text-align: center;
+  padding: 20;
 }
-.phandau {
-  color: white; 
-  background-color: pink; 
-  text-align: center; 
-  padding: 30px;
-  font-size: 30px; 
-}
-.giua{
-  display:inline-block ;
-  height: 70%
-}
-.trinhdon {
-  display: flex;
-  background-color: baby blue; 
-  padding: 20px; 
- 
-}
-.hello { 
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-  padding: 5px 10px; 
-}
- 
-.noidung {
-  color: black;
-  height: 500px;
-}
-iframe{
- height: 100%;
-  width: 100%;
+.topnav
+{
+  float: left;
+  display: block;
   
 }
