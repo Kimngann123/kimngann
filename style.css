@@ -4,7 +4,7 @@ html {
 }
 .phandau {
   color: white; 
-  background-color: #B9D6F3; 
+  background-color: #68b6ef; 
   text-align: center; 
   padding: 50px;
   font-size: 50px; 
@@ -15,8 +15,8 @@ html {
 }
 .trinhdon {
   display: flex;
-  background-color: #F8DAE9; 
-  padding: 20px; 
+  background-color: #ff8fab; 
+  padding: 30px; 
  
 }
 .hello { 
