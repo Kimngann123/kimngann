@@ -1,8 +1,37 @@
 html {
-height: 100%; width: 100%;
-4}
-5h2 & color:pink; font-family:verdana;}
-6h3 & color:yellow; font-family:verdana;}
-7 label { font-size: 20px;font-weight:bold;}
-8 inputs background-color: pink;}
-9 textarea & background-color: ivory;}
+  height: 100%;
+  width: 100%;
+}
+.phandau {
+  color: white; 
+  background-color: pink; 
+  text-align: center; 
+  padding: 30px;
+  font-size: 30px; 
+}
+.giua{
+  display:inline-block ;
+  height: 70%
+}
+.trinhdon {
+  display: flex;
+  background-color: yellow; 
+  padding: 20px; 
+ 
+}
+.hello { 
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 10px; 
+}
+ 
+.noidung {
+  color: black;
+  height: 500px;
+}
+iframe{
+ height: 100%;
+  width: 100%;
+  
+}
