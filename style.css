@@ -1,13 +1,37 @@
-.header
-{
-  background-color: gray;
-  color: red;
-  text-align: center;
-  padding: 20;
+html {
+  height: 100%;
+  width: 100%;
 }
-.topnav
-{
-  float: left;
-  display: block;
+.phandau {
+  color: white; 
+  background-color: pink; 
+  text-align: center; 
+  padding: 30px;
+  font-size: 30px; 
+}
+.giua{
+  display:inline-block ;
+  height: 70%
+}
+.trinhdon {
+  display: flex;
+  background-color: yellow; 
+  padding: 20px; 
+ 
+}
+.hello { 
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 10px; 
+}
+ 
+.noidung {
+  color: black;
+  height: 500px;
+}
+iframe{
+ height: 100%;
+  width: 100%;
   
 }
