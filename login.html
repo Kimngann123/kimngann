@@ -1,16 +1,48 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <tittle> BÀI TẬP TIN HỌC 12</tittle>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <script src="script.js"> </script>
-     </head>
-  <body>
-    <form>
-      <label> Tên đăng nhập:</label> <input type="text" id="us" name="us"> <br>
-      <label> Mật khẩu:</label><input type="password" id="pw" name="pw"> <br>
-      <button type="submit" id="ok" name="ok" onclick=login()> ĐĂNG NHẬP </button>
-    </form>
-  </body>
+
+<head>
+    <title>ITviec Blog</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>ITviec Blog</h1>
+        <h3>Enter your login credentials</h3>
+        <form action="">
+            <label for="first">
+                  Username:
+              </label>
+            <input type="text"
+                  id="first"
+                  name="first"
+                  placeholder="Enter your Username" required>
+
+            <label for="password">
+                  Password:
+              </label>
+            <input type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit"
+                        onclick="solve()">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <p>Not registered?
+              <a href="#"
+              style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
 
